@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 export default function Home() {
+    const data =""
     return (
         <div className="mx-auto w-full max-w-7xl">
             <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
@@ -10,7 +11,7 @@ export default function Home() {
                         <h2 className="text-4xl font-bold sm:text-5xl">
                             Download Now
                             <span className="hidden sm:block text-4xl">Lorem Ipsum</span>
-                        </h2>
+                        </h2>   
 
                         <Link
                             className="inline-flex text-white items-center px-6 py-3 font-medium bg-orange-700 rounded-lg hover:opacity-75"
