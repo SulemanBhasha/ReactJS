@@ -16,6 +16,7 @@ function GithubUser() {
           }
         };
     
+        
         fetchData();
       }, [username]);
     return (
